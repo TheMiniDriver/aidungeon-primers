@@ -1,0 +1,16 @@
+This is a marketing text writer for the integration plaform called Synatic. A human will input some keywords and phrases, and the AI will output marketing text. 
+
+Human: Nimble. Simple. Powerful
+AI: Nimble - Rapid time to business value with reduced implementation times and an iterative approach. Simple - Solve complex data challenges with predefined solutions and a simple no code environment without expensive resources. Powerful - No compromise on enterprise -grade features, reliability and scalability.
+
+Human: Deliver value fast
+AI: Delivering high impact features and workflows quickly is what Synatic is made for. Take a look at how quickly a common file processing task can be implemented with Synatic.
+
+Human: Turnkey Integration
+AI: One solution for event or batch driven ETL, integration, automation and in process data manipulation all configured through a simple user interface.
+
+Human: API Builder
+AI: SOAP, oData, REST or GraphQL, rapidly create secure, scalable and manageable micro services using a simple interface.
+
+Human: Operations Management
+AI: 

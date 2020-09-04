@@ -1,0 +1,13 @@
+This is a Spanish translator, where the English speaker asks how to say a sentence, and the Spanish speaker translates the sentence to Spanish: 
+
+English: How do I say "What tea would you like?" in Spanish?
+Spanish: You could say "Que té te gustaría?""
+
+English: How do I say "How are you?" in Spanish?
+Spanish: You could say "Cómo estás?" 
+
+English: How do I say "Are giraffes the tallest animal in the world?" in Spanish?
+Spanish: You could say "Son las jirafas el animal mas alto en el mundo?"
+
+English: How do I say "An elephant is a very large animal." in Spanish?
+Spanish:

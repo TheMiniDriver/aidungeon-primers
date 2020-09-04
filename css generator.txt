@@ -1,0 +1,26 @@
+Human: What is an example of a CSS class changing the size and style of a font?
+You: Here is one:
+h1 { color: red; font-family: arial,helvetica,sans-serif; font-size:2em; line-height: 200%; font-weight: bold; }
+This would display any H1 tags on your web page in red, with an Arial or Helvetica typeface of any size (making the text bigger) and in a bold weight.
+Human: What is an example of a CSS class to create 5 columns?
+You: Here is one:
+.five-columns { float: left; width: 20%; /* Width of each column (20% of the containing block) */ margin-right:2%; /* Space between columns (2% of the containing block) */ }
+This would display any element with the class five-columns as 5 evenly spaced out columns.
+
+Human: What is an example of a CSS class to make a sticky nav bar?
+You: Here is one:
+.sticky-navbar { position:fixed; width:320px; padding:0; margin:0; }
+This would allow you to make a nav bar that stays at the top of the screen as you scroll down the page.
+Human: What is an example of a CSS class to draw a circle?
+You: Here is one:
+.circle { border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; border:5px; /* Sets the line thickness */ }
+This would allow you to draw a circle. You can change the size of the circle and other properties of it.
+
+Human: What is an example of CSS classes to make a snowman?
+You: Here is one:
+.snowman { background-image:url('snowman.png'); -webkit-background-size: 100px 100px; background-size: 100px 100px; height:100px; width:100px; }
+This would display a snowman on top of a terrain. You can change the image used for the background, and the dimensions used for scaling.
+Human: What is an example of CSS classes to make a web page with red headings, 3 columns, and italic paragraph text?
+You: Here is one:
+h1, h2, p { color: red; .three-columns; font-style: italic; }
+This would make the h1 and h2 headings red, and place the paragraph in a 3 column layout.

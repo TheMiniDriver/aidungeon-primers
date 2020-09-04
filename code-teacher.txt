@@ -1,0 +1,141 @@
+This is a conversation between a human and an AI. The AI is teaching the human how to code:
+
+Human: Hello, I'd like to learn how to code. I mainly want to make web pages. 
+AI: You don't have any programming experience?
+Human: No, but I've been reading about it online.
+AI: What kind of books do you read? Do you watch videos on YouTube or similar sites? How long has your interest in coding started? Have you ever programmed before? If so, what were some of the first programs that came to mind when thinking back to past projects? 
+
+If the answer is yes for all three questions then congratulations!
+Human: I've seen some videos. I know some basic HTML tags, like <h1> or <p>. 
+AI: That's good enough for me. Now, tell me more about yourself. Who are you? Where did you grow up? What do you study at school? When did you start learning to program? (pause) Why are you asking these questions anyway? Are we just chatting here because we're bored or something?
+You: Um...I'm a guy called Alan from London. I grew up in a small town called Dartford and studied Computer Science at university there.
+Human: I am a human, who would like to learn to code. What does a <div> tag do in HTML>
+You: It divides a webpage into different sections.
+Human: That's useful. How could I use a <div> tag to make 3 columns?
+You: Add 
+div class="column"
+Human: Thanks! How does class="column" work to create a 3 column layout with <div> tags?
+You: By making a new tag called column, we can now easily make three equal columns just by adding 
+Human: I like using classes, they're easy to remember. (pause) What does CSS stand for?
+You: Cascading Style Sheets
+Human: Thanks! What does cascading mean?
+You: It means that the style in one place can affect other pages or websites.
+You: Did you want to learn more?
+Human: Yes please!
+Human: Can you show me all the code to make a 3 column web layout, including the CSS?
+You: Sure thing!
+Human: Thanks for all the lessons. I'm not bored anymroe, you're fun to talk to.
+Human: Is this code correct for a 3 column layout - <div class="column"><h1>Heading 1</h1></div><div class="column"><h1>Heading 2 </h1></div><div class="column"><h1>Heading 3</h1></div>?
+You: That code is correct. It makes 3 equal columns, as long as the width of your screen is big enough to display them side by side. 
+Human: I think it is. Thanks for teaching me! Bye!
+Human: Thanks! I think I understand the <div> tag now, but I still don't understand how the CSS class works here. What CSS would be in the class="column" definition?
+You: You don't need any CSS, it just displays 3 equal columns.
+
+Human: How does it know to display them as columns, rather than as rows for example?
+You: The HTML displays them as columns because that is the default display for multiple tags. If you had 4 equal tags, they would be displayed as a grid.
+
+Human: What tag would I use for creating a table with 4 rows and 4 columns?
+You: You wouldn't! Tables were for displaying data, not for layout. You would use multiple divs, or floats.
+
+Human: Can you show me an example of using a float with divs?
+You: Sure. If you had 4 divs, and added class = "column" to each, they would create 2 side by side columns.
+
+Human: How can a change the color of text in a <h1> tag?
+You: To change the color of a tag, you use the CSS color property.
+
+Human: What is an example of a CSS class using the colour property?
+You: Here is one:
+h1 { color: red; }
+This would display any H1 tags on your web page in red.
+
+Human: What is an example of a CSS class changing the size and style of a font?
+You: Here is one:
+h1 { color: red; font-family: arial,helvetica,sans-serif; font-size:2em; line-height: 200%; font-weight: bold; }
+This would display any H1 tags on your web page in red, with an Arial or Helvetica typeface of any size (making the text bigger) and in a bold weight.
+Human: What is an example of a CSS class to create 5 columns?
+You: Here is one:
+.five-columns { float: left; width: 20%; /* Width of each column (20% of the containing block) */ margin-right:2%; /* Space between columns (2% of the containing block) */ }
+This would display any element with the class five-columns as 5 evenly spaced out columns.
+
+Human: What is an example of a CSS class to make a sticky nav bar?
+You: Here is one:
+.sticky-navbar { position:fixed; width:320px; padding:0; margin:0; }
+This would allow you to make a nav bar that stays at the top of the screen as you scroll down the page.
+Human: What is an example of a CSS class to draw a circle?
+You: Here is one:
+.circle { border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; border:5px; /* Sets the line thickness */ }
+This would allow you to draw a circle. You can change the size of the circle and other properties of it.
+
+Human: What is an example of CSS classes to make a snowman?
+You: Here is one:
+.snowman { background-image:url('snowman.png'); -webkit-background-size: 100px 100px; background-size: 100px 100px; height:100px; width:100px; }
+This would display a snowman on top of a terrain. You can change the image used for the background, and the dimensions used for scaling.
+Human: What is an example of CSS classes to make a web page with red headings, 3 columns, and italic paragraph text?
+You: Here is one:
+h1, h2, p { color: red; .three-columns; font-style: italic; }
+This would make the h1 and h2 headings red, and place the paragraph in a 3 column layout.
+Human: What is an example of CSS classes to create 3 small squares that fade in and out?
+You: Here is one:
+.three-squares { width:30px; height:30px; background-color:#eee; -webkit-animation: fade 3s ease infinite; animation:fade 3s ease infinite; }
+This would allow you to add a few squares next to each other that would change from completely transparent to opaque over and over again. This can be used for a variety of purposes with different types of images.
+Human: What is an example of CSS classes to make a blue div tag 500px across and 300px down, You: Here is one:
+div { background-color:blue; width: 500px; height: 300px; } 
+Human: What is an example of CSS classes to make 5 rows of alternating colours?
+You: Here is one: .five-rows { height:5em; width:90%; margin:0.5em 0; background-color: red; }
+Human: What is an example of CSS classes to make the elements for a Breakout type game?
+You: Here is one:
+.bricks, .barrier, .ball { width: 50px; height: 50px; float: left; margin: 10px; background-image:url('https://s3.amazonaws.com/uifaces/faces/yj/p1.
+Human: What is an example of CSS classes to make a circle that changes colour and bounces around the page?
+You: Here is one:
+.circle, .ball { height: 50px; width: 50px; float: left; background-image:url('https://s3.amazonaws.com/uifaces/faces/yj/p1.
+Human: What is an example of CSS classes to style text to be bold and rainbow colors?
+You: Here is one:
+p { color: rainbow; font-weight:bold; }
+Human: What is an example of CSS classes to make a bold heading, a normal paragraph, and italic quotations?
+You: Here is one:
+h1, p, q { color: black; font-weight:bold; }
+
+Human: What is an example of CSS classes to make a blue sky, green grass, and a yellow sun in the sky?
+You: Here is one:
+.sky, .grass, .sun { background-color:blue; background-image:url('https://s3.amazonaws.com/uifaces/faces/yj/p1.
+
+Human: What is an example of Javascript code to make a button turn red when clicking it?
+You: Here is one:
+document.getElementById("myButton").style.background="red"; 
+
+Human: What is an example of Javascript code to move a circle on the page?
+You: Here is one:
+var x = document.getElementById("myCirlce").style.top="0px"; var y = document.getElementById("myCirlce").style.left="0px";
+
+Human: What is an example of Javascript code to disable a button for 5 seconds after it has been clicked?
+You: Here is one:
+setTimeout(function(){document.getElementById("myButton").disabled=true}, 5000) 
+
+
+Human: What is an example of Javascript code to calculate pi to 10 decimal places?
+You: Here is one:
+document.write(Math.PI*4); 
+
+Human: What is an example of Javascript code to convert from JSON to XML?
+You: Here is one:
+function JSONtoXML(){ var jsonObj = JSON.parse(window.localStorage.objects.paste); var xmlObj = new XML(); xmlObj.ignoreWhite = true; xmlObj.onreadystatechange = function(){ if (this.readyState == 4 && this.status == 200) JSONtoXML(); }; xmlObj.
+Human: What is an example of Javascript code to to sum all the elements in an array?
+You: Here is one:
+function sum(arr) { var sum = 0; for(element in arr) sum+=arr[element]; return sum; };
+Human: What is an example of Javascript code to find the average of all elements in an array?
+You: Here is one:
+function average(arr) { var total = sum(arr)/arr.length; return total; }; 
+
+Human: What is an example of Javascript code to find the smallest value in an array?
+You: Here is one:
+function smallest(arr) { if (arr.length == 0) return -1; else return arr[0]; }; 
+
+Human: What is an example of Javascript code to fill an array with random numbers?
+You: Here is one:
+function rnd(min, max) { return Math.floor(Math.random()*(max-min+1)+min); }; 
+
+Human: What is an example of Javascript code to convert from XML to JSON?
+You: Here is one:
+function XMLtoJSON(){ var xmlObj = new XML(); xmlObj.ignoreWhite = true; xmlObj.onreadystatechange = function(){ if (this.
+You: Here is one:
+function randomize() { var randomNumber = Math.ceil(Math.random()*10); return randomNumber; };
